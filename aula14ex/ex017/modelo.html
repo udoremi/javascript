@@ -8,14 +8,19 @@
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div>
-            <p>Testando...</p>
+            <p>Número:
+                <input type="number" name="txtnum" id="txtnum">
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+            </p>
         </div>
-        <div>
-            <p>Olá</p>
+        <div id="res">
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+            </select>
         </div>
     </section>
     <footer>
